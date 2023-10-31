@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+justify-content: space-between;
+margin: 1rem;
+align-items: center;
+
+}
+nav img{
+    width: 233px;
+    height: 44px;
+}
+.navlist{
+    display: flex;
+    gap: 3rem;
+}
+.navlist li{
+    list-style: none;
+  
+}
+.navlist a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #1A579D;
+color: white;
+height: 29px;
+  width:89px ;
+} 
+.hr{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: black;
+  border:1px solid black ;
+   
+}
+.heads{
+    display: flex;
+    gap: 6rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.heads h1{
+    font-weight: 500;
+    font-size: 5rem;
+}
+.h1{
+    height: 152px;
+    width:580px ;
+}
+.p{
+    height: 90px;
+    width:628px ; 
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.small{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+}
+.img{
+    display: flex;
+    gap: 4rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.hr2{
+    margin: 1rem;
+    color: black;
+    border:2px solid black ;
+}
+.content{
+    margin: 1rem;
+    display: flex;
+    gap: 4rem;
+}
+.text p{
+    height: 217px;
+    width:552px ;
+    font-size: 4.2rem;
+} 
+.upper{
+    display: flex;
+}
+.upper p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    height: 59px;
+    width:185px ;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+.box1,.box2{
+    display: flex;
+}
+
+
